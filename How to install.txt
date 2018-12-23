@@ -1,0 +1,14 @@
+***** PLEASE FOLLOW THIS INSTRUCTION TO "INSTALL" THE ADS DICTIONARY *****
+
+- Open Main class in src/sample.
+- Add 2 libraries ONE BY ONE to your project by: File -> Project Structures -> Libraries -> "+" -> Java
+		-> choose 2 files in the "Libraries" folder -> ok...
+- Compile the Main class.
+
+For more any contact, please contact Mr. Truong Si Thi Vu (Monitor of ICT Gen8)
+or contact me: phuongminh2303@gmail.com.
+
+(If you wonder why we don't create an executable file (.exe, .jar), the answer is we failed.
+Honestly, we're lazy and tired :D )
+
+Have fun!
