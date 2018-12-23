@@ -1,0 +1,224 @@
+﻿programming = programming. Definition: An algorithm consists of a sequence of instructions in programming 
+language to solve a problem on computer. Algorithms can be represented by flowchart, pseudo-code or code. /
+
+flowchart = flowchart. Definition: Flowcharts are used in designing and documenting simple processes or programs. 
+Flowcharts help visualize and understand a process. /
+
+pseudocode = pseudocode. Definition: Pseudo-code is a high-level description. Pseudo-code is concrete and 
+easy for human comprehension. Pseudo-code is ususal used to describe algorithms. /
+
+finiteness = finiteness. Definition: The algorithm must always terminate after a finite number of steps. 
+Stopping condition should be asserted (A good algorithm must possess). /
+
+definiteness = definiteness. Definition: Each instruction must be precisely defined and concise. 
+Repetition should be avoided at all cost (A good algorithm must possess). /
+
+input_output = input output. Definition: An algorithm may or may not have inputs but an algorithm has one 
+or more outputs available when the algorithm terminates (A good algorithm must possess). /
+
+effectiveness = effectiveness. Definition: All operations to be performed must be sufficiently basic that 
+they can be done exactly and in finite length (A good algorithm must possess). /
+
+correctness = correctness. Definition: Does the algorithm always produce correct output for each given input? 
+This asserts that the algorithm products expected results (common criteria to evaluate an algorithm). /
+
+efficiency_complexity = efficiency complexity: Definition: An algorithm is always optimized to have 
+low running time as possible (time complexity). During the programming, variables are declared and located in memory, 
+an algorithm is always optimized to have low allocation memory as possible (space complexity) (common criteria to evaluate an algorithm). /
+
+simple_recursive_algorithm = simple recursive algorithm. Definition: Convert the main problem to sub-problems; 
+solve the base cases directly; recur with a simpler sub-problem. /
+
+divide_and_conquer_algorithm = divide and conquer algorithm. Definition: Given a problem to be solved, 
+split this into several smaller sub-problems; solve each of them recursively and then combine the
+sub-problem solutions so as to product a solution for the original problem. /
+
+quicksort = quicksort. Definition: Partition the array into two parts (smaller numbers in one part, 
+larger numbers in the other part). Quicksort each of the parts. /
+
+mergesort = mergesort. Definition: Cut the array in half, and mergesort each half. 
+Combine the two sorted arrays into a single sorted array by merging them. /
+
+dynamic_programming_algorithm = dynamic programming algorithm. Definition: Remembers past results and uses them to find new results. 
+How: Cut the main problem into a set of simpler sub-problems, solve each of those sub-problems just once, and store their solutions which can be used later. /
+
+greedy_algorithm = greedy algorithm. Definition: A greedy algorithm is an algorithm that follows the problem solving heuristic: 
+take the best that we can get right now, without regard for future consequences. Choose a local optimum at each step with the hope of 
+finding a global optimum. Greedy algorithms sometimes work well for optimization problems. /
+
+backtracking_algorithm = backtracking algorithm. Definition: A backtracking algorithm bases on recursion: starting with one possible move out of 
+many available moves; find next move from the starting point; if this satisfies given constraints, continue next moves; else return to previous move. 
+Sometimes, backtracking algorithms don’t have solutions due to the constraints. /
+
+randomized_algorithm = randomized algorithm. Definition: A randomized algorithm is an algorithm that employs a degree of randomness as part of its logic. 
+In Quicksort, using a random number to choose a pivot. In Machine Learning, some techniques are “randomized” such as K-means, Self-organized Map, Random Forest, etc. /
+
+data = data. Definition: Data refers to the fact that some existing information or knowledge. Data is a set of values of qualitative or quantitative variables. /
+
+variable = variable. Definition: Being used to store data, variables are simply names used to refer to some location in memory, 
+a location that we can use to write, retrieve, and manipulate throughout the course of program. /
+
+variable_declaration = Variable declaration. Definition: Variable declaration shows a specific type, which determines the size used in the memory; 
+the range of values that can be stored within that memory; and the set of operations that can be applied to the variable. /
+
+variable_name = variable name. Definition: Variable name is an identifier for that variable call-by-name; reference-by-name. 
+The name can be composed of letters, digits,and the underscore character. Upper and lowercase letters are distinct. /
+
+function = function. Definition: A named section of a computer program that performs a specific task and returns value. 
+A function can be called or used in other functions. /
+
+global_variable = global variable. Definition: A global variable is a variable that it is visible (hence accessible) throughout the program.  
+Its value can be changed anywhere in the code. /
+
+local_variable = local variable. Definition: A local variable is a variable which is either 
+a variable declared within the function or is an argument passed to a function. This type of variable can be only used within a function, 
+after the execution, local variables are removed from the computer memory. /
+
+array = array .Definition: An array is a predefined-size sequential collection of N elements of the same type. 
+The objects are called elements of the array and they are indexed by their order in the sequence. The element indices are from 0 to N - 1. /
+
+index = index. Definition: To access an element in an array, an index is available for use such as a[0], b[1], a[i], b[i+j] with i,j ? N. 
+A basic loop permits to process every elements of the array. /
+
+pointer = pointer. Definition: A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.  
+Like any variable or constant, a pointer must be declared before its use to store any variable address. /
+
+string = string. Definition: String is an one-dimensional array of characters which is terminated by a NULL character ’\0’. 
+Built-in functions forC-string is in<string.h>. /
+
+structure = structure. Definition: Structure is user defined data type available in C programming, which allows to combine one or more variables, 
+possibly of differenttypes, grouped together under a single name for convenient handling. /
+
+enumerated_type = enumerated type. Definition: Enumerated types are types that are defined with finite number of values, 
+known as enumerators, as possible values.  The key word for an enumerated type is enum. /
+
+abstract_data_type = Abstract Data Type. Definition: An abstract data type (ADT) is a set of objects together with a set of operations.  
+These operations can be divided into two types: Access allowing to identify objects in the set; Manipulation allowing to control, modify, manipulate objects; 
+ADTs are precisely specified independent of any particular implementation; Abstract means that the implementation of operations are not specified in ADT definition. 
+Example:  List, Stack, Queue, String, Tree, etc. /
+
+list = list. Definition: A list is a collection with finite number of data objects that has thefollowing properties: It is homogenoeus, i.e.  
+the elements are all of the same type. It has finite length. Its elements are arranged in sequential (linear) order. Example: Static array, Dynamic array, Linked list. /
+
+linked_list = linked list. Definition: In Linked Lists, each item is placed together with the link to the next item, 
+resulting in a simple component called a node: A data part stores an element value of the list. A next part contains 
+a link (or pointer) that indicates thelocation of the node containing the next list element. If link does not point a node, then its value set to NULL (a special C++ constant in stdlib.h). /
+
+double_linked_list = double linked list. Definition: Doubly Linked Lists is a variation of Linked List in which navigation is possible in both ways either forward and backward. 
+A data part stores an element value of the list. A next part contains a link indicating the next element. A previous part contains a link indicating the previous element. /
+
+stack = stack. Definition: A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle. / 
+
+queue = queue. Definition: A queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle. / 
+
+anchor = anchor. Definition: Anchor, or base case, is the first part of a recursive 
+definition in which the basic elements, that are building blocks of all other elements of the set, are listed. /
+
+recursive_method = recursive method. Definition: A function (method) is called 
+recursive if it calls or defines itself during the execution (direct way). /
+
+euclid_algorithm = Euclid’s algorithm. Definition: the Euclidian algorithm, or 
+Euclid’s algorithm, is an algorithm for finding the greatest common diviser of 
+two numbers. The algorithm can also be defined for more general rings than just the integers. /
+
+fibonacci_series = Fibonacci series. Definition: a series of number in which 
+each numbers (Fibonacci number) is the sum of two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc. /
+
+algorithm = algorithm. Definition: a set of steps that are followed in order 
+to solve a mathematical problem or to complete a computer process. /
+
+hanoi_tower = Hanoi tower. Definition: the Tower of Hanoi is a mathematical game 
+or puzzle. It consists of three rods and a number of disks of different sizes, which
+can slide to any rod. The puzzle starts with the disks in a neat stack in ascending order 
+of size on one rod, with the smallest on the top, thus making a concial shape. /
+
+linear_search = linear search. Definition: Linear search, also known as sequential search, 
+is a process that checks every element in the list sequentially until the desired element 
+is found. The computational complexity for linear search is O(n), making it generally much less 
+efficient than binary search (O(log n)). /
+
+binary_search = binary search. Definition: A binary search, also called a dichotomizing search, 
+is a digital scheme for locating a specific object in a large set. Each object in the set is given 
+a key. The number of keys is always a power of 2. If there are 32 items in a list, for example, they 
+might be numbered 0 through 31 (binary 00000 through 11111). /
+
+sorting = sorting. Definition: A sorting algorithm is an algorithm that puts elements of a list in a
+certain order. For numerical values, we often sort them in ascending or descending order. /
+
+selection_sort = selection sort. Definition: The selection sort is a combination of searching and sorting. 
+During each pass, the unsorted element with the smallest (or largest) value is moved to its proper position 
+in the array. The number of times the sort passes through the array is one less than the number of items in the array. /
+
+bubble_sort = bubble sort. Definition: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm 
+that repeatedly steps through the list, compares adjacent pairs and swaps them if they are in the wrong order. /
+
+merge_sort = merge sort. Definition: Merge sort is a sorting technique based on divide and conquer technique. It first 
+divides the array into equal halves and then combines them in a sorted manner. /
+
+quick_sort = quick sort. Definition: Quicksort is a popular sorting algorithm that is often faster in practice compared to other sorting algorithms. 
+It utilizes a divide-and-conquer strategy to quickly sort data items by dividing a large array into two smaller arrays. /
+
+graph = graph. Definition: a graph G is a representation of a set of objects V and of edges E (G=(V, E)). V is a set of nodes (objects) called vertices
+(vertex in singular). E={(u, v)}, u, v belonging to V is a collection of edges, pairs of vertices. /
+
+weight = weight. Definition: a weight is a numerical value, assigned as a label to a vertex or edge of a graph. /
+
+weighted_graph = weighted graph. Definition: a weighted graph is a graph whose vertices or edges have been assigned weights. /
+
+undirected_graph = undirected graph. Definition: the pairs of vertices are unordered or bidirectional. /
+
+directed_graph = directed graph. Definition: the edges have a direction associated with
+them. A pair of vertices (u, v) is ordered where u is the source and v is the destination. /
+
+adjacency_matrix = adjacency matrix. Definition: an adjacency matrix is a square matrix used to represent a finite
+graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph. /
+
+graph_traversal = graph traversal. Definition: graph traversal (also known as graph search) refers to the process
+of visiting each vertex in a graph. Such traversals are classified by the order in which the vertices are visited. Tree traversal is a
+special case of graph traversal. /
+
+breadth_first_search = breadth-first search. Definition: breadth-first search (BFS) is an algorithm for traversing or searching tree or 
+graph data structures. It uses the opposite strategy as  depth-first search, which instead explores the highest-depth nodes first before being forced 
+to backtrack and expand shallower nodes. /
+
+depth_first_search = depth-first search. Definition: depth-first search (DFS) is an algorithm for traversing or searching tree or 
+graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores 
+as far as possible along each branch before backtracking. /
+
+dijkstra_algorithm = Dijkstra's algorithm. Definition: Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, 
+which may represent, for example, road networks. /
+
+prim_algorithm = Prim's algorithm. Definition: Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. /
+
+tree = tree. Definition: a tree T is a set of nodes storing elements such that the nodes have a parent-child relationship. If T is not empty, 
+T has a special tree node called the root r that has no parent. Each node c of T different than the root has a unique parent node p; each node with 
+parent p is a child of c. /
+
+root = root. Definition: a root of a tree is the starting node, the node that does not have a parent. A tree has one unique and only one root./
+
+internal_node = internal node. Definition: internal nodes (parent nodes) are the nodes that have children. /
+
+terminal_node = terminal node. Definition: terminal nodes (called leaves) are the nodes that don't have any child node. /
+
+siblings = siblings. Defnition: siblings nodes are the nodes that have the same parents node. /
+
+subtree = subtree. Definition: an internal node or a terminal node may be considered as the root of a subtree. /
+
+binary_tree = binary tree. Definition: a binary tree is a tree such that every node has at most 2 children denoted a left node or a right node. /
+
+decision_tree = decision tree. Definition: a decision tree is a decision support tool that uses a tree-like model of decisions and their possible 
+consequences, including chance event outcomes, resource costs, and utility. /
+
+binary_search_tree = binary search tree. Definition: a binary search tree (BST) is a node-based data structure in which each node has 
+no more than two child nodes. Each child must either be a leaf node or the root of another binary search tree. /
+
+k_d_tree = k-d tree. Definition: a k-d tree (k-dimensional tree) is a data structure for organizing points in a k-dimensional space.
+k-d trees can be considered as a special case of binary tree. /
+
+b_tree = B-tree. Definition: a B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, 
+sequential access, insertions, and deletions in logarithmic time. The B-tree is a generalization of a binary search tree in that a node can 
+have more than two children. /
+
+2_3_tree = 2-3 tree. Definition: a 2–3 tree is a tree data structure, where every node with children (internal node) has either two children (2-node) 
+and one data element or three children (3-nodes) and two data elements. According to Knuth, "a B-tree of order 3 is a 2-3 tree". /
+

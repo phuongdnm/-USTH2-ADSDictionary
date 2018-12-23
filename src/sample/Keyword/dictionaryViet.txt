@@ -1,0 +1,220 @@
+﻿lập_trình = lập trình. Định nghĩa: Một thuật toán bao gồm một chuỗi các hướng dẫn trong ngôn ngữ lập trình để 
+giải quyết một vấn đề trên máy tính. Các thuật toán có thể được biểu diễn bằng sơ đồ, mã giả hoặc mã. /
+
+lưu_đồ = lưu đồ. Định nghĩa: Lưu đồ được sử dụng trong thiết kế và ghi lại các quy trình hoặc chương trình đơn giản. 
+Lưu đồ giúp hình dung và hiểu một quy trình. /
+
+mã_giả = Mã giả. Định nghĩa: Mã giả là một mô tả cấp cao. Mã giả rất cụ thể và dễ hiểu cho con người. 
+Mã giả được sử dụng để mô tả các thuật toán. /
+
+tình_hữu_hạn = tính hữu hạn. Định nghĩa: Thuật toán phải luôn chấm dứt sau một số bước hữu hạn. 
+Điều kiện dừng nên được khẳng định (Một thuật toán tốt phải có). /
+
+tính_xác_định = tính xác định. Định nghĩa: Mỗi lệnh phải được định nghĩa chính xác và súc tích. 
+Lặp lại nên được tránh bằng mọi giá (phải có trong 1 thuật toán tốt). /
+
+dữ_liệu_vào_và_ra = dự liệu vào và ra. Định nghĩa: Thuật toán có thể có hoặc không có dữ liệu đầu vào 
+nhưng thuật toán có một hoặc nhiều thông tin đầu ra có sẵn khi thuật toán kết thúc (Thuật toán tốt phải có). /
+
+tính_hiệu_quả = tính hiệu quả. Định nghĩa: Tất cả các hoạt động được thực hiện phải đủ cơ bản để chúng 
+có thể được thực hiện chính xác và theo chiều dài hữu hạn (Thuật toán tốt phải có). /
+
+tính_chính_xác = tính đúng đắn. Định nghĩa: Thuật toán có luôn tạo ra thông tin đầu ra chính xác cho mỗi dữ liệu đầu vào đã cho không? 
+Điều này khẳng định rằng các thuật toán tạo ra kết quả như mong muốn (tiêu chí chung để đánh giá một thuật toán). /
+
+độ_hiệu_quả_và_độ_phức_tạp = độ hiệu quả và độ phức tạp: Định nghĩa: Thuật toán luôn được tối ưu hóa để có thời gian chạy thấp nhất có thể (độ phức tạp thời gian). 
+Trong quá trình lập trình, các biến được khai báo và nằm trong bộ nhớ, thuật toán luôn được tối ưu hóa để có bộ nhớ phân bổ thấp nhất có thể 
+(độ phức tạp của không gian) (tiêu chí chung để đánh giá một thuật toán). /
+
+thuật_toán_đệ_quy_đơn_giản = thuật toán đệ quy đơn giản. Định nghĩa: Chuyển đổi vấn đề chính thành các vấn đề phụ; 
+giải quyết các trường hợp cơ sở trực tiếp; tái diễn với một vấn đề phụ đơn giản hơn. /
+
+thuật_toán_chia_để_trị = thuật toán chia để trị. Định nghĩa: Đưa ra một vấn đề cần giải quyết, 
+chia nhỏ thành nhiều vấn đề nhỏ hơn; giải quyết từng vấn đề nhỏ và sau đó kết hợp
+giải pháp vấn đề phụ để sản xuất một giải pháp cho vấn đề ban đầu. /
+
+sắp_xếp_nhanh = sắp xếp nhanh. Định nghĩa: Phân vùng mảng thành hai phần (số nhỏ hơn trong một phần, số lớn hơn ở phần khác). 
+Thực hiện sắp xếp nhanh trong mỗi bộ phận. /
+
+sắp_xếp_trộn = sắp xếp trộn. Định nghĩa: Cắt mảng thành một nửa và gộp mỗi nửa. Kết hợp hai mảng được sắp xếp 
+vào một mảng được sắp xếp đơn lẻ bằng cách hợp nhất chúng. /
+
+quy_hoạch_động = thuật toán quy hoạch động. Định nghĩa: Ghi nhớ các kết quả trong quá khứ và sử dụng chúng để tìm kết quả mới. 
+Cách thực hiện: Cắt vấn đề chính thành một tập hợp các vấn đề phụ đơn giản hơn, giải quyết từng vấn đề phụ một lần và lưu trữ các giải pháp của chúng có thể được sử dụng sau này. /
+
+thuật_toán_tham_lam = thuật toán tham lam. Định nghĩa: Thuật toán tham lam là một thuật toán theo sau giải quyết vấn đề heuristic 
+(kỹ thuật dựa trên kinh nghiệm để giải quyết vấn đề: tận dụng tốt nhất những gì chúng ta có thể có ngay bây giờ, không quan tâm đến kết quả trong tương lai. 
+Chọn một tối ưu địa phương ở mỗi bước với hy vọng tìm kiếm một tối ưu toàn cầu. Thuật toán tham lam đôi khi hoạt động tốt cho các vấn đề tối ưu hóa. /
+
+thuật_toán_backtracking = thuật toán backtracking. Định nghĩa: Một thuật toán backtracking dựa trên đệ quy: bắt đầu với một bước di chuyển có thể thực hiện được 
+trong nhiều bước di chuyển có sẵn; tìm bước di chuyển tiếp theo từ điểm bắt đầu; nếu điều này thỏa mãn các ràng buộc, tiếp tục bước di chuyển tiếp theo
+khác quay trở lại bước di chuyển trước đó. Đôi khi, thuật toán backtracking không có giải pháp do các ràng buộc. /
+
+thuật_toán_ngẫu_nhiên = thuật toán ngẫu nhiên. Định nghĩa: Thuật toán ngẫu nhiên là thuật toán sử dụng mức độ ngẫu nhiên như một phần của logic của nó. 
+Trong thuật toán "sắp xếp nhanh", có sử dụng một số ngẫu nhiên để chọn một trục. Trong Machine Learning, một số kỹ thuật được "ngẫu nhiên" như: 
+Giải thuật k hàng xóm gần nhất, Mạng tự tổ chức, rừng ngẫu nhiên, v.v.
+
+dữ_liệu = dữ liệu. Định nghĩa: Dữ liệu đề cập đến thực tế  là một số thông tin hoặc kiến ​​thức hiện có. 
+Dữ liệu là tập hợp các giá trị của các biến định tính hoặc định lượng. /
+
+biến = biến. Định nghĩa: Được sử dụng để lưu trữ dữ liệu, các biến là các tên được sử dụng để chỉ một số vị trí trong bộ nhớ, 
+một vị trí mà chúng ta có thể sử dụng để viết, truy xuất và thao tác trong suốt quá trình của chương trình. /
+
+khai_báo_biến = Khai báo biến. Định nghĩa: Khai báo biến thể hiện một kiểu cụ thể, xác định kích thước được sử dụng trong bộ nhớ; 
+phạm vi của các giá trị có thể được lưu trữ trong bộ nhớ đó; và tập hợp các hoạt động có thể được áp dụng cho biến. /
+
+tên_biến = tên biến. Định nghĩa: Tên biến là một định danh cho biến số gọi theo tên đó; tham chiếu theo tên. Tên có thể bao gồm các chữ cái, 
+chữ số và ký tự gạch dưới. Trong đó, chữ hoa và chữ thường có sự khác biệt. /
+
+hàm = hàm. Định nghĩa: Phần được đặt tên của chương trình máy tính thực hiện tác vụ cụ thể và trả về giá trị. 
+Một hàm có thể được gọi hoặc được sử dụng trong các hàm khác. /
+
+biến_toàn_cầu = biến toàn cầu. Định nghĩa: Một biến toàn cầu là một biến mà nó có thể nhìn thấy (do đó có thể truy cập được) 
+trong suốt chương trình. Giá trị của nó có thể được thay đổi bất cứ nơi nào khi lập trình. /
+
+biến_cục_bộ = biến cục bộ. Định nghĩa: Một biến cục bộ là một biến mà là một biến được khai báo trong hàm hoặc là một đối số được truyền cho một hàm. 
+Kiểu biến này chỉ có thể được sử dụng trong một hàm, sau khi thực hiện, các biến cục bộ được loại bỏ khỏi bộ nhớ máy tính. /
+
+mảng = mảng. Định nghĩa: Một mảng là một bộ sưu tập được xác định trước về kích thước của các phần tử N cùng loại. 
+Các đối tượng được gọi là các phần tử của mảng và chúng được lập chỉ mục theo thứ tự của chúng trong chuỗi. Các chỉ số phần tử từ 0 đến N - 1. /
+
+lập_chỉ_mục = lập chỉ mục. Định nghĩa: Để truy cập một phần tử trong một mảng, chỉ mục có sẵn để sử dụng như [0], b [1], [i], b [i + j] với i, j ∈ N.
+Một vòng lặp cơ bản cho phép xử lý mọi phần tử của mảng. /
+
+con trỏ = con trỏ. Định nghĩa: Một con trỏ là một biến có giá trị là địa chỉ của một biến khác, tức là địa chỉ trực tiếp của vị trí bộ nhớ. 
+Giống như bất kỳ biến hoặc hằng số nào, một con trỏ phải được khai báo trước khi sử dụng nó để lưu trữ bất kỳ địa chỉ biến nào. /
+
+chuỗi = chuỗi. Định nghĩa: Chuỗi là một mảng các ký tự một chiều được chấm dứt bởi một ký tự NULL '\0'. Các hàm dựng sẵn choC-string nằm trong <string.h>. /
+
+cấu_trúc = cấu trúc. Định nghĩa: Cấu trúc là kiểu dữ liệu do người dùng định nghĩa có sẵn trong lập trình C, cho phép kết hợp một hoặc nhiều biến, 
+có thể là các kiểu khác nhau, được nhóm lại với nhau dưới một tên duy nhất để xử lý thuận tiện. /
+
+kiểu_liệt_kê = kiểu liệt kê. Định nghĩa: Các kiểu được liệt kê là các kiểu được định nghĩa với số lượng hữu hạn các giá trị, được gọi là kiểu liệt kê, 
+là các giá trị có thể. Từ khóa cho một kiểu liệt kê là enum. /
+
+Kiểu_dữ_liệu_trừu_tượng = Kiểu dữ liệu trừu tượng. Định nghĩa: Một kiểu dữ liệu trừu tượng (ADT) là một tập hợp các đối tượng cùng với một tập hợp các phép toán. 
+Các hoạt động này có thể được chia thành hai loại: Truy cập cho phép xác định các đối tượng trong tập hợp; Thao tác cho phép điều khiển, sửa đổi, thao tác các đối tượng; 
+ADT được chỉ định chính xác độc lập với bất kỳ triển khai cụ thể nào; Tóm tắt có nghĩa là việc thực hiện các hoạt động không được xác định trong định nghĩa ADT. 
+Ví dụ: Danh sách, Ngăn xếp, Hàng đợi, Chuỗi, Cây, v.v. /
+
+danh_sách = danh sách. Định nghĩa: Một danh sách là một tập hợp với số lượng hữu hạn các đối tượng dữ liệu có các thuộc tính sau đây: Đó là homogenoeus, 
+tức là các phần tử đều có cùng kiểu. Nó có độ dài hữu hạn. Các phần tử của nó được sắp xếp theo thứ tự tuần tự (tuyến tính). Ví dụ: mảng tĩnh, mảng động, danh sách liên kết. /
+
+danh_sách_liên_kết = danh sách liên kết. Định nghĩa: Trong Danh sách được Liên kết, mỗi mục được đặt cùng với liên kết đến mục tiếp theo, dẫn đến 
+thành phần đơn giản được gọi là nút: Phần dữ liệu lưu trữ giá trị phần tử của danh sách. Một phần tiếp theo có chứa một liên kết (hoặc con trỏ) chỉ ra 
+sự sắp xếp của nút chứa phần tử danh sách tiếp theo. Nếu liên kết không trỏ một nút, thì giá trị của nó được đặt thành NULL (một hằng số C ++ đặc biệt trong stdlib.h). /
+
+danh_sách_liên_kết_kép = danh sách liên kết kép. Định nghĩa: Danh sách liên kết kép là một biến thể của Danh sách liên kết, trong đó 
+điều hướng có thể theo cả hai chiều về phía trước và phía sau. Phần dữ liệu lưu trữ giá trị phần tử của danh sách. Phần tiếp theo chứa một liên kết 
+cho biết phần tử tiếp theo. Phần trước chứa một liên kết cho biết phần tử trước đó. /
+
+ngăn_xếp = ngăn xếp. Định nghĩa: Một ngăn xếp là một vùng chứa các đối tượng được chèn vào và được loại bỏ theo nguyên tắc last-in-first-out (LIFO). /
+
+hàng_đợi = hàng đợi. Định nghĩa: Một hàng đợi là một thùng chứa các đối tượng (một bộ sưu tập tuyến tính) được chèn vào và loại bỏ theo nguyên tắc first-in-first-out (FIFO). /
+
+móc_neo = móc neo. Định nghĩa: Móc neo, hay trường hợp cơ sở, là phần đầu tiên của lý thuyết đệ quy
+mà trong đó các phần tử cơ bản - các khối cơ bản của mọi phần tử khác trong tập hợp - được liệt kê ra. /
+
+đệ_quy = phương pháp đệ quy. Định nghĩa: một hàm (phương thức) được gọi là
+đệ quy nếu nó gọi hoặc khai báo chính nó khi chạy (một cách trực tiếp). /
+
+euclid = thuật toán Euclid. Định nghĩa: thuật toán Euclid là
+một thuật toán dùng để tìm ước chung lớn nhất của 2 số.
+Thuật toán này cũng có thể được khai báo với nhiều khẩu phổ biến hơn ngoài số nguyên. /
+
+fibonacci = dãy Fibonacci. Định nghĩa: một dãy các số trong đó 
+mỗi số (số Fibonacci) là tổng của hai số đứng trước. Đơn giản nhất là dãy 1, 1, 2, 3, 5, 8, v.v.. /
+
+thuật_toán = thuật toán. Định nghĩa: tập hợp các bước được tuân thủ theo thứ tự
+để giải một vấn đề toán học hoặc để hoàn thành một tiến trình tính toán. /
+
+tháp_hà_nội = tháp Hà Nội. Định nghĩa: tháp Hà Nội là một trò chơi toán học
+hay một câu đố. Trò chơi gồm 3 cái gậy và một số đĩa với độ lớn khác nhau, các đĩa
+có thể được xỏ vào bất kì cây gậy nào. Câu đố bắt đầu với các đĩa được xếp chồng theo thứ tự kích thước tăng dần
+ở một gậy, với đĩa nhỏ nhất trên cùng, qua đó tạo ra một hình nón. /
+
+tìm_kiếm_tuyến_tính = tìm kiếm tuyến tính. Định nghĩa: tìm kiếm quyến tính, hay tìm kiếm tuần tự,
+là một quá trình kiểm tra mọi phần tử trong danh sách một cách tuần tự đến khi tìm thấy phần tử mong muốn.
+Độ phức tạp tính toán của tìm kiếm tuyến tính là O(n), nói chung ít hiệu quả hơn tìm kiếm nhị phân. /
+
+tìm_kiếm_nhị_phân = tìm kiếm nhị phân. Định nghĩa: tìm kiếm nhị phân, hay tìm kiếm rẽ đôi,
+là một phương pháp số để xác định một đối tượng nào đó trong một tập hợp. Mỗi đối tượng trong tập hợp được cho một
+khóa. Số khóa luôn là lũy thừa của 2. Ví dụ, có 32 khoản trong một danh sách, nó sẽ được đánh số 0 qua 31 (nhị phân 00000 qua 11111). /
+
+sắp_xếp = sắp xếp. Định nghĩa: một thuật toán sắp xếp là thuật toán đặt mọi phần tử của một danh sách theo 
+thứ tự nhất định. Với các giá trị số, ta thường sắp xếp theo thứ tự tăng dần hoặc giảm dần. /
+
+sắp_xếp_chọn = sắp xếp chọn. Định nghĩa: sắp xếp chọn là sự kết hợp giữa tìm kiếm và chọn lựa. Trong mỗi lần chạy,
+phần tử chưa được sắp xếp mang giá trị nhỏ nhất (hoặc lớn nhất) dược chuyển đến vị trí thích hợp trong dãy.
+Số lần sắp xếp chạy qua dãy nhỏ hơn một so với số phần tử của dãy. /
+
+sắp_xếp_nổi_bọt = sắp xếp nổi bọt. Định nghĩa: Sắp xếp nổi bọt, đôi khi được nhắc đến như sắp xếp chìm, là một
+thuật toán sắp xếp đơn giản, liên tục chạy qua danh sách, so sánh các cặp liền kề và hoán đổi chúng nếu chúng đứng sai thứ tự. /
+
+sắp_xếp_trộn = sắp xếp trộn. Định nghĩa: Sắp xếp trọn là kỹ thuật sắp xếp dựa trên việc chia để trị. Đầu tiên chia
+dãy thành các nửa bằng nhau rồi ghép lại theo thứ tự được sắp xếp. /
+
+sắp_xếp_nhanh = sắp xếp nhanh. Định nghĩa: Sắp xếp nhanh là một thuật toán sắp xếp thông dụng, thường nhanh hơn so với các thuật toán sắp xếp khác.
+Thuật toán này sử dụng chiến thuật chia-để-trị để sắp xếp các khoản dữ liệu một cách nhanh chóng với việc chia một dãy lớn thành các dãy nhỏ hơn. /
+
+đồ_thị = đồ thị. Định nghĩa: một đồ thị G là đại diện của một tập hợp các đối tượng V và cạnh E (G=(V, E)). V là tập hợp các nốt (đối tượng) gọi là
+các đỉnh (số ít vertex). E={(u, v)}, u, v thuộc V là một tập các cạnh, các cặp của các đỉnh. /
+
+trọng_số = trọng số. Định nghĩa: một giá trị toán học, được phân như ký hiệu của một đỉnh hoặc cạnh của một đồ thị. /
+
+đồ_thị_có_trọng_số = đồ thị có trọng số. Định nghĩa: một đồ thị có trọng số là đồ thị có các đỉnh hoặc cạnh có trọng số. /
+
+đồ_thị_vô_hướng = đồ thị có hướng. Định nghĩa: các cặp đỉnh không theo thứ tự hay hai chiều. /
+
+đồ_thị_có_hướng = đồ thị có hướng. Định nghĩa: các cạnh đều có hướng. /
+
+ma_trận_kề = ma trận kề. Định nghĩa: một ma trận vuông dùng để biểu thị đồ thị hữu hạn. Các phần tử của ma trận xác định
+các cặp đỉnh có kề hay không trong đồ thị. /
+
+phép_duyệt_đồ_thị = phép duyệt đồ thị. Định nghĩa: duyệt đồ thị (hay tìm kiếm đồ thị) chỉ quá trình xét duyệt
+mỗi đỉnh trong một đồ thị. Các phép duyệt này được phân chia theo thứ tự mà trong đó các đỉnh sẽ được xét duyệt. Phép duyệt
+cây là một trường hợp đặc biệt của phép duyệt đồ thị. /
+
+tìm_kiếm_theo_chiều_rộng = tìm kiếm theo chiều rộng. Định nghĩa: một thuật toán để duyệt hay tìm kiếm cây hoặc đồ thị cấu trúc dữ liệu.
+Thuật toán này sử dụng chiến thuật ngược với tìm kiếm theo chiều sâu, thuật toán mà thay vào đó duyệt các nốt sâu nhất đầu tiên, trước khi
+quay lại và duyệt các nốt gần hơn. /
+
+tìm_kiếm_theo_chiều_sâu = tìm kiếm theo chiều sâu. Định nghĩa: một thuật toán duyệt hoặc tìm kiếm trên một cây hoặc một đồ thị. 
+Thuật toán khởi đầu tại gốc (hoặc chọn một đỉnh nào đó coi như gốc) và phát triển xa nhất có thể theo mỗi nhánh./
+
+thuật_toán_dijkstra = thuật toán Dijikstra. Định nghĩa: một thuật toán tìm quãng đường ngắn nhất giữa các nốt trong đồ thị,
+qua đó, ví dụ, có thể biểu thị mạng lưới đường. /
+
+thuật_toán_prim = thuật toán Prim. Định nghĩa: thuật toán Prim là một thuật toán tham lam tìm giao thức spanning tree nhỏ nhất cho đồ thị vô hướng có trọng số. /
+
+cây = cây. Định nghĩa: một cây T là một tập các nốt chứa các phần tử như thể các nốt có quan hệ cha-con. Nếu T không rỗng,
+T có một nốt cây đặc biệt gọi là gốc r, gốc r không có nốt cha. Mỗi nốt c của T khác với gốc có một nốt cha duy nhất p; mỗi nốt với
+cha p là một con của c. /
+
+gốc = gốc. Định nghĩa: gốc của một cây là nốt khởi đầu, không có nốt cha. Mỗi cây có một và chỉ một gốc. /
+
+nốt_trong = nốt trong. Định nghĩa: nốt trong (nốt cha) là các nốt có nốt con. /
+
+nốt_đầu_cuối = nốt đầu cuối. Định nghĩa: (gọi là nhánh lá) là nốt không có bất kì nốt con nào. /
+
+nốt_anh_em = nốt anh em. Định nghĩa: là các nốt có chung nốt cha. /
+
+cây_con = cây con. Định nghĩa: một nốt trong hoặc một nốt đầu cuối có thể được coi là gốc của một cây con. /
+
+cây_nhị_phân = cây nhị phân. Định nghĩa: cây nhị phân là cây mà các nốt đều có nhiều nhất 2 nốt con biểu thị như nốt trái hoặc phải. /
+
+cây_quyết_định = cây quyết định. Định nghĩa: cây quyết định là một công cụ hỗ trợ quyết định dùng mẫu giống hình cây của các quyết định và các
+hậu quả có thể của nó, bao gồm các kết quả sự kiện cơ hội, chi phí nguồn, và tính hữu dụng. /
+
+cây_tìm_kiếm_nhị_phân = cây tìm kiếm nhị phân. Định nghĩa: cây tìm kiếm nhị phân là một cấu trúc dữ liệu dựa trên nốt, mỗi nốt
+có nhiều nhất 2 nốt con. Mỗi nốt con phải là nốt nhánh lá hoặc gốc của một cây tìm kiếm nhị phân khác. /
+
+cây_k_d = cây k-d. Định nghĩa: một cây k-d (cây k-hướng) là một cấu trúc dữ liệu tổ chức các điểm theo không gian k-hướng.
+cây k-d có thể được coi là trường hợp đặc biệt của cây nhị phân. /
+
+cây_b = cây B. Định nghĩa: là một cấu trúc dữ liệu cây tự cân bằng duy trì dữ liệu đã sắp xếp và cho phép các tìm kiếm,
+truy cập tuần tự, nhập, và xóa trong thời gian lôgarit. Cây B là một tổng quát của cây tìm kiếm nhị phân mà trong đó một nốt có thể
+có nhiều hơn 2 nốt con. /
+
+cây_2_3 = cây 2-3. Định nghĩa: một cấu trúc dữ liệu cây, trong đó mọi nốt có nốt con (nốt trong) có cả 2 nốt con (2-nốt)
+và một phần tử dữ liệu hoặc 3 nốt con (3-nốt) và hai phần tử dữ liệu. Theo Knuth, "một cây B thứ tự 3 là một cây 2-3". /

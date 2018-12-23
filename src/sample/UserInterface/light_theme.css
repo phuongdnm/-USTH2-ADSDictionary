@@ -1,0 +1,76 @@
+* {
+    -fx-primary : #ffffe6;
+    -fx-secondary: #000000;
+    -fx-primarytext: #000000;
+}
+
+/* back ground for the whole program */
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+/*style for menu bar and its menu items*/
+.menu-bar{
+    -fx-base: -fx-primary;
+    -fx-background-color: -fx-primary;
+}
+
+.context-menu{
+    -fx-background-color: derive(-fx-primary, 20%);
+}
+
+/*style for the "search" text field*/
+.text-field{
+    -fx-text-fill: -fx-primarytext;
+}
+
+/*style for the "search history" label*/
+.label-searchHistory{
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: -fx-primarytext;
+}
+
+/*style for the button */
+.button{
+    -fx-text-fill: -fx-primarytext;
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-primary;
+}
+
+/*style for the history box ( list view)*/
+.history-box{
+    -fx-base: -fx-primary;
+    -fx-text-fill: #ffff66;
+}
+
+/* style for the name of the word */
+.label-word{
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-text-fill: -fx-primarytext;
+}
+/*style for the definition area ( text area)*/
+.text-area{
+    -fx-base: derive(-fx-primary, 20%);
+    -fx-text-fill: -fx-secondary;
+    -fx-font-size: 15;
+}
+
+/*style for the HBox in the bottom of the window*/
+.box-bottom{
+    -fx-base: -fx-primary;
+    -fx-font-size: 12px;
+}
+
+.table-view{
+    -fx-background-color: -fx-primary
+}
+
+.table-view .column-header-background{
+    -fx-background-color: -fx-primary;
+}
+
+.table-view .column-header{
+    -fx-background-color: -fx-primary;
+}

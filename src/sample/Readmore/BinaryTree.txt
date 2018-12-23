@@ -1,0 +1,77 @@
+Main applications of trees include:
+1. Manipulate hierarchical data.
+2. Make information easy to search (see tree traversal).
+3. Manipulate sorted lists of data.
+4. As a workflow for compositing digital images for visual effects.
+5. Router algorithms
+6. Form of a multi-stage decision-making (see business chess).
+
+- Binary:
+A tree is represented by a pointer to the topmost node in tree. If the tree is empty, then value of root is NULL.
+A Tree node contains following parts.
+1. Data
+2. Pointer to left child
+3. Pointer to right child
+
+-----------------------------------------------------------------
+struct node  
+{ 
+    int data; 
+    struct node *left; 
+    struct node *right; 
+}; 
+  
+/* newNode() allocates a new node with the given data and NULL left and  
+   right pointers. */
+struct node* newNode(int data) 
+{ 
+  // Allocate memory for new node  
+  struct node* node = (struct node*)malloc(sizeof(struct node)); 
+  
+  // Assign data to this node 
+  node->data = data; 
+  
+  // Initialize left and right children as NULL 
+  node->left = NULL; 
+  node->right = NULL; 
+  return(node); 
+} 
+  
+  
+int main() 
+{ 
+  /*create root*/
+  struct node *root = newNode(1);   
+  /* following is the tree after above statement  
+  
+        1 
+      /   \ 
+     NULL  NULL   
+  */
+    
+  
+  root->left        = newNode(2); 
+  root->right       = newNode(3); 
+  /* 2 and 3 become left and right children of 1 
+           1 
+         /   \ 
+        2      3 
+     /    \    /  \ 
+    NULL NULL NULL NULL 
+  */
+  
+  
+  root->left->left  = newNode(4); 
+  /* 4 becomes left child of 2 
+           1 
+       /       \ 
+      2          3 
+    /   \       /  \ 
+   4    NULL  NULL  NULL 
+  /  \ 
+NULL NULL 
+*/
+  
+  getchar(); 
+  return 0; 
+}

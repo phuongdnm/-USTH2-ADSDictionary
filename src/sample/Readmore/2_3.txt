@@ -1,0 +1,15 @@
+Search: To search a key K in given 2-3 tree T, we follow the following procedure:
+
+Base cases:
+
+1. If T is empty, return False (key cannot be found in the tree).
+2. If current node contains data value which is equal to K, return True.
+3. If we reach the leaf-node and it doesn’t contain the required key value K, return False.
+
+Recursive Calls:
+
+1. If K < currentNode.leftVal, we explore the left subtree of the current node.
+2. Else if currentNode.leftVal < K currentNode.rightVal, we explore the right subtree of the current node.
+3. Else if K > currentNode.rightVal, we explore the right subtree of the current node.
+
+------------------------------------------------------

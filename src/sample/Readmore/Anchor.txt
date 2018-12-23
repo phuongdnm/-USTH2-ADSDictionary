@@ -1,0 +1,14 @@
+﻿The base case in a recursive algorithm (not just a function, not just in C) is the case that is no longer recursive
+
+
+--------------------------------------------------------------------
+long factorial(long n) {
+    if (n <= 1)
+        return 1;                     /* base case (n <= 1) */
+    else
+        return n * factorial(n - 1);  /* recursive case (n > 1) */
+}
+--------------------------------------------------------------------
+long factorial(long n) {
+    return n * factorial(n - 1);    /* BAD IDEA: no base case */
+}
